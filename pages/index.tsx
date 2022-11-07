@@ -1,11 +1,10 @@
-import type { NextPage } from "next"
+import { Typography } from "@mui/material";
 
-const HomePage: NextPage = () => {
+export default function HomePage () {
   return (
-    <div>
+    <Typography>
         Hola mundo
-    </div>
+    </Typography>
   )
 }
 
-export default HomePage
